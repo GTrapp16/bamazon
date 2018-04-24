@@ -26,7 +26,7 @@ To run this application the user must first setup the database in MySQL Workbenc
 
 This customer interface lets the user view current inventory, department, cost, name, and id# of all of the items.  It also prompts the user to select the id of the item they wish to purchase.  It then prompts the user to ask how many of the selected item they wish to purchase.  If the user's input depletes the inventory then it will tell the user it is out of stock. After a purchase the user is shown the updated inventory screen and is prompted to make further purchases. If all goes well the user is shown a success message and a calculation of how much they spent.
 
-###Instructions to run in console (after MySQL database and username/password connection is set up in bamazon.js)
+### Instructions to run in console (after MySQL database and username/password connection is set up in bamazon.js)
 * git clone https://github.com/GTrapp16/bamazon.git
 * cd bamazon
 * npm i mysql
@@ -37,7 +37,7 @@ This customer interface lets the user view current inventory, department, cost, 
 
 The program will run and the user will be prompted.  If the user wishes to restart then the lightning bolt can be clicked in MySQL to refresh the database inventory.
 
-###Here is a quick video running through the program.
+### Here is a quick video running through the program.
 
 * https://drive.google.com/open?id=1ss-e2U8AJCeSSzSqxg1E6gw72_K1jtaf
 
