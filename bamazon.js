@@ -27,7 +27,7 @@ function start() {
     connection.query('SELECT item_id, product_name, price, department_name, stock_quantity From products', function (err, result) {
        //log an error if there is one
         if (err) console.log(err);
-// creates table to display data and set styling
+// creates table to display data and set styling in the CLI for the user to see
         var table= new Table ({
             head: ['Item Id#', 'Product Name', 'Price($)', 'Department', 'Remaining Stock'],
             style: {
@@ -86,10 +86,15 @@ function productChange() {
                             connection.query('UPDATE Products SET stock_quantity=? WHERE item_id=?', [number, answer.item], function(err, results) {
                                 if (err) throw err;
                                 //run through how much everything was for the user
+                                //how many the user bought
                                 console.log(answer.quantity + " items purchased")
+                                //how many blanks at the cost of the each unit
                                 console.log(res[0].product_name + " " + res[0].price + "$")
+                                //total cost added up
                                 console.log("Your total cost is " + cost + "$")
+                                //success message
                                 console.log("Your transaction has been processed!")
+                                //repeat so user may purchase again and view updated table
                                 start();
                         })
                     }
@@ -97,3 +102,4 @@ function productChange() {
                 );
             });
 }
+
