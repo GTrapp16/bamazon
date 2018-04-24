@@ -73,7 +73,7 @@ function productChange() {
                     function(err, res) {
                         if (err) throw err;
                         //if none then tell the user it is out
-                        if (res[0].stock_quantity <= answer.quantity) {
+                        if (res[0].stock_quantity < answer.quantity) {
                             console.log("We apologize for the inconvenience but we are temporarily out of stock.")
                             //if out of stock repeats user prompts to start over
                             start();
