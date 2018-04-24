@@ -39,6 +39,6 @@ The program will run and the user will be prompted.  If the user wishes to resta
 
 ### Here is a quick video running through the program.
 
-* https://drive.google.com/open?id=1ss-e2U8AJCeSSzSqxg1E6gw72_K1jtaf
+* https://drive.google.com/open?id=19RdzCVGoX7V2f5_rKW0ibOV2KXDcRqdy
 
 Greg Trapp  [Github](https://github.com/GTrapp16)
