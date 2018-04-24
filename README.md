@@ -40,4 +40,4 @@ The program will run and the user will be prompted.  If the user wishes to resta
 
 	
 
-	Greg Trapp  [Github](https://github.com/GTrapp16)
+Greg Trapp  [Github](https://github.com/GTrapp16)
