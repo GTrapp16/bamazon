@@ -12,10 +12,10 @@ A manager and executive section will be added in the future where more utilities
 
 ### NPM Packages used
 
-npm i mysql
-npm i inquirer
-npm i colors
-npm i cli-table
+* npm i mysql
+* npm i inquirer
+* npm i colors
+* npm i cli-table
 
 
 ### MySQL Database Setup
@@ -37,7 +37,8 @@ This customer interface lets the user view current inventory, department, cost, 
 
 The program will run and the user will be prompted.  If the user wishes to restart then the lightning bolt can be clicked in MySQL to refresh the database inventory.
 
+###Here is a quick video running through the program.
 
-	
+* https://drive.google.com/open?id=1ss-e2U8AJCeSSzSqxg1E6gw72_K1jtaf
 
 Greg Trapp  [Github](https://github.com/GTrapp16)
